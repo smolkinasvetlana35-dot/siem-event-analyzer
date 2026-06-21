@@ -1,0 +1,12 @@
+site_name: SIEM Event Analyzer
+theme: readthedocs
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - Home: index.md
+  - Generator: event_generator.md
+  - Analyzer: event_analyzer.md
+  - Main: main.md
+  - Tests: test_analyzer.md

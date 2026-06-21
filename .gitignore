@@ -1,0 +1,50 @@
+# .gitignore
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Директории с данными (но не сами файлы)
+data/
+!data/.gitkeep
+
+# Логи
+*.log
+app.log
+
+# Отчеты тестов
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Документация
+site/
+docs/_build/
+
+# Файлы состояния (опционально, если хотите сохранять их в репозитории)
+# data/*.json
+# !data/.gitkeep
